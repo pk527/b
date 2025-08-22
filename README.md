@@ -43,16 +43,17 @@ This project proposes an **automated, AI-powered diagnosis system** using:
 
 ## 📂 Project Workflow  
 
-```mermaid
-graph TD;
-    A[📷 Input Raw Image] --> B[🔧 Preprocessing & Noise Reduction]
-    B --> C[🎨 Contrast Enhancement (Histogram Equalization)]
-    C --> D[✂️ Image Segmentation]
-    D --> E[🧩 Feature Extraction]
-    E --> F[🖼️ 3D Reconstruction]
-    F --> G[🤖 CNN + SVM Classification]
-    G --> H[📊 Diagnosis Report]
-```
+
+flowchart TD
+  A[Input image] --> B[Preprocessing and noise reduction]
+  B --> C[Contrast enhancement - histogram equalization]
+  C --> D[Segmentation]
+  D --> E[Feature extraction]
+  E --> F[3D reconstruction]
+  F --> G[Classification - CNN / SVM]
+  G --> H[Diagnosis report]
+
+
 ---
 
 ## 📊 Applications  
