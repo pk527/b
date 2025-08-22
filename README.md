@@ -1,6 +1,5 @@
 # 🩺 Diagnosis of Dermatological Diseases using 3D Projection  
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)  
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2020b-orange)  
 ![Deep Learning](https://img.shields.io/badge/AI-CNN-green)  
 ![Status](https://img.shields.io/badge/status-Completed-brightgreen)  
