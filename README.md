@@ -1,110 +1,104 @@
-Diagnosis of Dermatological Diseases using 3D Projection
-📌 Project Overview
+# 🩺 Diagnosis of Dermatological Diseases using 3D Projection  
 
-This project presents an automated system for the diagnosis of dermatological diseases using advanced image processing and machine learning techniques. By leveraging methods such as K-means clustering, morphology-based segmentation, CNNs, and 3D reconstruction, the system identifies unique patterns in skin images to aid in accurate and efficient disease detection.
+![License](https://img.shields.io/badge/license-MIT-blue.svg)  
+![MATLAB](https://img.shields.io/badge/MATLAB-R2020b-orange)  
+![Deep Learning](https://img.shields.io/badge/AI-CNN-green)  
+![Status](https://img.shields.io/badge/status-Completed-brightgreen)  
 
-The solution is designed to work even on resource-constrained devices like smartphones, making it particularly valuable for rural and developing regions where access to dermatologists is limited.
+---
 
-✨ Features
+## 🚀 Overview  
+Dermatological diseases affect millions worldwide 🌍, and **early detection** is crucial.  
+This project proposes an **automated, AI-powered diagnosis system** using:  
 
-Image Acquisition & Preprocessing: Captures raw images, reduces noise, and enhances contrast.
+- 📷 **Image Processing** (filtering, segmentation, clustering)  
+- 🧠 **Deep Learning (CNN + SVM)**  
+- 🎥 **3D Projection & Visualization**  
 
-Segmentation: Uses adaptive thresholding, edge detection, and clustering techniques to isolate diseased regions.
+💡 Optimized to run on **resource-constrained smartphones**, this system is designed to assist patients in rural areas with **fast, affordable, and reliable skin disease diagnosis**.  
 
-3D Reconstruction: Converts 2D dermatological images into 3D projections for better visualization.
+---
 
-Feature Extraction: Extracts texture and color characteristics to improve classification accuracy.
+## ✨ Key Features  
+✅ Automatic **image preprocessing & noise reduction**  
+✅ **Segmentation** using thresholding, clustering & morphology  
+✅ **3D projection** of dermatological patterns  
+✅ **Feature extraction** (color, texture, shape)  
+✅ **Disease classification** with CNN & SVM  
+✅ Runs on **MATLAB + Image Processing Toolbox**  
+✅ Lightweight design for **mobile healthcare apps** 📱  
 
-Classification: Employs CNNs and Support Vector Machines (SVMs) for disease identification.
+---
 
-Lightweight Deployment: Optimized for smartphones with limited computational resources.
+## 🛠️ Tech Stack  
 
-🛠️ Technologies Used
+| Category | Tools & Methods |
+|----------|----------------|
+| **Language** | MATLAB |
+| **Algorithms** | CNN, K-Means Clustering, SVM |
+| **Processing** | Histogram Equalization, Median Filtering |
+| **Visualization** | 2D → 3D Projection |
+| **Toolbox** | MATLAB Image Processing Toolbox |
 
-Programming Language: MATLAB
+---
 
-Techniques:
+## 📂 Project Workflow  
 
-Digital Image Processing
+```mermaid
+graph TD;
+    A[📷 Input Raw Image] --> B[🔧 Preprocessing & Noise Reduction]
+    B --> C[🎨 Contrast Enhancement (Histogram Equalization)]
+    C --> D[✂️ Image Segmentation]
+    D --> E[🧩 Feature Extraction]
+    E --> F[🖼️ 3D Reconstruction]
+    F --> G[🤖 CNN + SVM Classification]
+    G --> H[📊 Diagnosis Report]
+```
+---
 
-Convolutional Neural Networks (CNNs)
+## 📊 Applications  
+- 🏥 **Clinical Decision Support** – Assists dermatologists in faster and more accurate diagnosis.  
+- 📱 **Mobile Health Apps** – Can be deployed on smartphones for rural & remote healthcare.  
+- 🎓 **Teaching Tool** – Serves as a training aid for medical students in dermatology.  
+- 🧑‍⚕️ **Early Screening** – Helps in detecting conditions like melanoma at an early stage.  
+- 🌍 **Healthcare Accessibility** – Provides affordable and scalable solutions for underserved communities.  
 
-Histogram Equalization
+---
 
-Median & Morphological Filtering
+## 📖 Methodology (Step-by-Step)  
 
-K-Means Clustering
+1️⃣ **Preprocessing** – Enhance raw skin images with noise reduction & contrast adjustment.  
+2️⃣ **Segmentation** – Identify affected skin regions using thresholding, clustering & morphology.  
+3️⃣ **3D Projection** – Convert 2D images into 3D projections for better visualization.  
+4️⃣ **Feature Extraction** – Extract texture, shape & color features.  
+5️⃣ **Classification** – Use CNN & SVM for dermatological disease detection.  
+6️⃣ **Output** – Generate diagnosis report with high accuracy and reduced computation time.  
 
-Support Vector Machine (SVM) Classification
+---
 
-Tools: MATLAB Image Processing Toolbox
+## 👨‍💻 Contributors  
 
-📂 Project Modules
+| Name | Roll No | Role |
+|------|---------|------|
+| **Balaji Prasanth E** | 211416106033 | Development & Testing |
+| **Dinesh R** | 211416106057 | Image Processing |
+| **Kanmanivishwaa P** | 211416106113 | CNN & Classification |
+| **Khanishkha S V** | 211416106122 | Research & Documentation |
 
-Input Raw Image – Load dermatological image dataset
+---
 
-Noise Reduction – Median filtering for salt & pepper noise
+## 📚 References  
+- Zulfikar & Zulhelmi (2017) – *Statistical Investigation of Skin Images*  
+- Archana Ajith et al. (2018) – *Digital Dermatology using Image Processing*  
+- Kyamelia Roy et al. (2019) – *Segmentation Techniques in Skin Disease Detection*  
+- Soniya Mane & Swati Shinde (2018) – *Melanoma Skin Cancer Detection*  
+- Stepanka Barotova et al. (2017) – *Fingerprint Damage Localizer*  
 
-Contrast Enhancement – Histogram equalization for improved clarity
+---
 
-Segmentation – Edge detection, clustering, and morphology methods
+## 🏫 Institution  
+**Panimalar Engineering College**  
+*Affiliated with Anna University, Chennai*  
+📅 *Project Submitted: April 2020*  
 
-Feature Extraction – Shape, color, and texture analysis
-
-3D Projection – Visualization of skin disease patterns
-
-Classification – CNN & SVM-based disease detection
-
-Database Integration – Image recognition and result mapping
-
-📖 Methodology
-
-Preprocessing – Enhance and normalize input images
-
-Segmentation – Identify diseased regions
-
-Medical Image Segmentation – Apply advanced CNN-based approaches
-
-3D Reconstruction – Project 2D skin data into 3D models
-
-Feature Extraction – Extract meaningful attributes for classification
-
-Classification – Train and evaluate CNN & SVM models
-
-📊 Results & Applications
-
-Provides faster and more accurate diagnosis compared to traditional methods.
-
-Acts as a decision-support system for dermatologists.
-
-Can be integrated into mobile health apps for use in rural areas.
-
-Useful as a real-time teaching tool for medical students.
-
-📚 References
-
-Zulfikar & Zulhelmi (2017) – Statistical Investigation of Skin Images
-
-Archana Ajith et al. (2018) – Digital Dermatology using Image Processing
-
-Kyamelia Roy et al. (2019) – Segmentation Techniques in Skin Disease Detection
-
-Soniya Mane & Swati Shinde (2018) – Melanoma Skin Cancer Detection
-
-Stepanka Barotova et al. (2017) – Fingerprint Damage Localizer for Skin Diseases
-
-👩‍💻 Contributors
-
-Balaji Prasanth E (211416106033)
-
-Dinesh R (211416106057)
-
-Kanmanivishwaa P (211416106113)
-
-Khanishkha S V (211416106122)
-
-📅 Institution
-
-Panimalar Engineering College
-Affiliated with Anna University, Chennai
-Project Submitted: April 2020
+---
